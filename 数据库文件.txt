@@ -1,0 +1,32 @@
+create database mydb;
+use mydb;
+create table login(
+name varchar(50),
+pwd varchar(50)
+);
+insert into login (name,pwd) values('py','123');
+insert into login (name,pwd) values('wbx','123');
+create table reservation(
+name varchar(50),
+email varchar(50),
+phone varchar(50),
+people varchar(50),
+date varchar(50),
+massage varchar(50)
+);
+insert into reservation(name,email,phone,people,date,massage) values('$data0','$data1','$data2','$data3','$data4','$data5');
+create table adm_login(
+id varchar(50),
+name varchar(50),
+pwd varchar(50)
+);
+insert into adm_login(id,name,pwd) values ('1','py','123');
+insert into adm_login(id,name,pwd) values ('2','wbx','123');
+create table user_login(
+id varchar(50),
+name varchar(50),
+phone varchar(50),
+pwd varchar(50)
+);
+insert into user_login(id,name,phone,pwd) values ('1','py','12345','123');
+insert into user_login(id,name,phone,pwd) values ('1','py','12345','123');
